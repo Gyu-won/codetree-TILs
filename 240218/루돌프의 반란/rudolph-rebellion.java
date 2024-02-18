@@ -111,7 +111,7 @@ public class Main {
                         sn = temp;
 
                         mr += rdr[direc];
-                        mc += rdr[direc];
+                        mc += rdc[direc];
                     }else{
                         board[mr][mc] = sn;
                         santas[sn][0] = mr;
